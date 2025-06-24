@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Pruebas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .test-section {
+            background: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        button {
+            background: #35424a;
+            color: #ffffff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        button:hover {
+            background: #e8491d;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+            background: #35424a;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Página de Pruebas</h1>
+            <p>Esta es una página básica para realizar pruebas</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="test-section">
+            <h2>Prueba de Contenido</h2>
+            <p>Este es un párrafo de ejemplo para probar el contenido de la página.</p>
+            <ul>
+                <li>Elemento de lista 1</li>
+                <li>Elemento de lista 2</li>
+                <li>Elemento de lista 3</li>
+            </ul>
+        </section>
+
+        <section class="test-section">
+            <h2>Prueba de Botón</h2>
+            <button onclick="alert('¡Botón funcional!')">Haz clic aquí</button>
+        </section>
+
+        <section class="test-section">
+            <h2>Prueba de Formulario</h2>
+            <form>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>Página de pruebas &copy; 2023</p>
+    </footer>
+
+    <script>
+        // JavaScript básico para pruebas
+        console.log("La página se ha cargado correctamente");
+    </script>
+</body>
+</html>
